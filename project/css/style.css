@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 0;
+    padding: 0 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    background-color: #eeeeee;
+}
+/* Шапка */
+.header {
+    height: 230px;
+    background-image: url(../img/header.png);
+}
+
+.header__information {
+    padding-top: 40px;
+}
+
+.header__information p {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 0.9em;
+}
+
+.header__information a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__information a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.header__title {
+    margin-top: 33%;
+}
+
+.header__logo img {
+    height: 180px;
+    width: auto;
+    margin-top: 22px;
+}
+
+/* Комментарии */
+.comments {
+    height: auto;
+    margin-top: 50px;
+}
+
+.comments__element {
+    margin-bottom: 40px;
+}
+
+.comments__element p {
+    line-height: 1em;
+}
+
+.comments__title{
+    margin-bottom: 5px;
+}
+
+.comments__title span {
+    float: right;
+    white-space: nowrap;
+    padding-right: 495px;
+    font-size: 13px;
+}
+
+.comments__name {
+    margin-top: 20px;
+    line-height: 0.4em;
+}
+
+.comments__text {
+    margin-top: 20px;
+}
+
+.comments__name input {
+    width: 510px;
+}
+
+.comments__text input {
+    /*padding: 20px 20px;*/
+}
+
+.comments__button {
+    margin: 30px ;
+    float: right;
+}
+
+.comments__button input {
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+}
+
+/* Футер */
+.footer {
+    height: 135px;
+    background-color: #f9f9f9;
+}
+
+.footer__logo img {
+    height: 108px;
+    width: auto;
+    margin-top: 8px;
+}
+
+.footer__information {
+    padding-top: 40px;
+}
+
+.footer__information p {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 0.4em;
+}
+
+.footer__information a {
+    text-decoration: none;
+    color: black;
+}
